@@ -1,0 +1,19 @@
+{
+  "name": "my-front-dev",
+  "version": "1.0.0",
+  "description": "Building UI with Reactjs. Few examples how to setup Reactjs in our project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscobizi/my-front-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscobizi/my-front-dev/issues"
+  },
+  "homepage": "https://github.com/franciscobizi/my-front-dev#readme"
+}
