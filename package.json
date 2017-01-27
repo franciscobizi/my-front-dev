@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/franciscobizi/my-front-dev.git"
   },
-  "author": "",
+  "author": "Francisco Bizi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/franciscobizi/my-front-dev/issues"
   },
-  "homepage": "https://github.com/franciscobizi/my-front-dev#readme"
+  "homepage": "https://github.com/franciscobizi/my-front-dev#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
 }
