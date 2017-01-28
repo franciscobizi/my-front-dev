@@ -1,4 +1,4 @@
-const sayHelloTo = name => 'Hello, ${nme}'
+const sayHelloTo = name => 'Hello, ${name}'
 
 module.exports = {
 

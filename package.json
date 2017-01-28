@@ -4,7 +4,7 @@
   "description": "Building UI with Reactjs. Few examples how to setup Reactjs in our project",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --inline --hot",
 	"build": "webpack"
   },
   "repository": {

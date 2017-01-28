@@ -46,14 +46,19 @@
 
 	const { sayHelloTo } = __webpack_require__(1);
 	const span = document.createElement('span');
-	span.innerText = sayHelloTo('Javascript Developer');
+	span.innerText = sayHelloTo('Developer JSX');
 	document.body.appendChild(span);
+	if(false)
+	{
+		module.hot.accept();
+		module.hot.dispose(() => span.parentNode.removeChild(span));
+	}
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	const sayHelloTo = name => 'Hello, ${nme}'
+	const sayHelloTo = name => 'Hello, ${name}'
 
 	module.exports = {
 
