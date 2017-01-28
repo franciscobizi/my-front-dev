@@ -4,7 +4,8 @@
   "description": "Building UI with Reactjs. Few examples how to setup Reactjs in our project",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+	"build": "webpack"
   },
   "repository": {
     "type": "git",

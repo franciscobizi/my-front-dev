@@ -53,7 +53,7 @@
 /* 1 */
 /***/ function(module, exports) {
 
-	const sayHelloTo = name => 'Hello, ${name}'
+	const sayHelloTo = name => 'Hello, ${nme}'
 
 	module.exports = {
 
